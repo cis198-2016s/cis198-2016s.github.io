@@ -74,8 +74,9 @@ p {
   border-color: #357ebd;
   border: 1px solid transparent;
   border-radius: 4px;
+  height: 1.5em;
   width: 100%;
-  padding: 8px;
+  padding: 1px;
   text-align: center;
   display: block;
 }
@@ -106,4 +107,14 @@ header > .partitioned {
 
 .ctr {
   text-align: center;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #ccc;
+}
+
+#ghbtn img {
+  height: 1.25em;
 }
