@@ -1,0 +1,17 @@
+<header>
+  <h1>CIS 198: Rust Programming</h1>
+  <h3><a class="stealth" href="http://www.upenn.edu/">University of Pennsylvania</a></h3>
+  <div class="ctr">Spring 2016</div>
+  <nav class="partitioned">
+    <div class="part">
+      <a class="btn" href="https://github.com/cis198-2016s">GitHub</a>
+    </div>
+    {% for page in site.pages %}
+      {% if page.title %}
+      <div class="part">
+        <a class="btn" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+      </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</header>

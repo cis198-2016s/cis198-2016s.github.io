@@ -1,0 +1,9 @@
+# Site settings
+title: "CIS 198: Rust Programming"
+email: "cis198@cis.upenn.edu"
+baseurl: ""
+url: "http://cis198-2016s.github.io"
+github_username: cis198-2016s
+
+# Build settings
+markdown: kramdown
