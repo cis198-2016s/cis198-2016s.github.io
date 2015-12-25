@@ -6,15 +6,17 @@
     <div class="part">
       <a class="btn" href="/">Home</a>
     </div>
-    {% for page in site.pages %}
-      {% if page.title %}
-      <div class="part">
-        <a class="btn" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-      </div>
-      {% endif %}
-    {% endfor %}
     <div class="part">
-      <a id="ghbtn" class="btn" href="https://github.com/cis198-2016s"><img src="/img/github.png" alt="GitHub"></a>
+      <a class="btn" href="/schedule/">Schedule</a>
+    </div>
+    <div class="part">
+      <a class="btn" href="/policies/">Policies</a>
+    </div>
+    <div class="part">
+      <a class="btn" href="https://piazza.com/class/iiksjduyiy773s" title="Piazza"><img src="/img/piazza.png" alt="Piazza"></a>
+    </div>
+    <div class="part">
+      <a class="btn" href="https://github.com/cis198-2016s" title="GitHub"><img src="/img/github.png" alt="GitHub"></a>
     </div>
   </nav>
 </header>

@@ -11,12 +11,14 @@
 
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 12pt;
   background-color: #fff;
   margin: 50px auto;
-  width: 400px;
   border: 1px solid #ccc;
   border-radius: 4px;
   padding: 0;
+  min-width: 320px;
+  max-width: 600px;
 }
 
 h1 {
@@ -24,8 +26,12 @@ h1 {
   text-align: center;
 }
 
-h2, h3, h4 {
+h2, h3 {
   text-align: center;
+}
+
+h4 {
+  font-weight: 400;
 }
 
 b, strong {
@@ -88,12 +94,16 @@ p {
   text-decoration: none;
 }
 
+.btn img {
+  height: 1.25em;
+}
+
 header, section {
   padding: 4px;
   width: 100%;
 }
 
-header > *, section > * {
+header > div, section > div, section > p, header > h1, header > h2, header > h3 {
   padding: 4px;
 }
 
@@ -102,7 +112,7 @@ header > .partitioned {
 }
 
 .small {
-  font-size: 85%;
+  font-size: 90%;
 }
 
 .ctr {
@@ -113,8 +123,4 @@ hr {
   border: 0;
   height: 1px;
   background: #ccc;
-}
-
-#ghbtn img {
-  height: 1.25em;
 }
