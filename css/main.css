@@ -19,6 +19,7 @@ body {
   padding: 0;
   min-width: 320px;
   max-width: 600px;
+  overflow-y: scroll;
 }
 
 h1 {
@@ -123,4 +124,13 @@ hr {
   border: 0;
   height: 1px;
   background: #ccc;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td, th, tr {
+  padding: 2px 4px;
+  border: 1px solid gray;
 }
