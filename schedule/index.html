@@ -20,19 +20,26 @@ permalink: /schedule/
   text-align: center;
 }
 
+.rustevent {
+  background-color: #f6eee2;
+  font-style: italic;
+  text-align: center;
+}
+
 .schedule td:nth-child(1),
 .schedule th:nth-child(1) {
   text-align: right;
-  width: 1.5em;
+  width: 2.25em;
 }
 
 .schedule td:nth-child(2),
 .schedule th:nth-child(2) {
   text-align: right;
-  width: 3em;
+  width: 3.25em;
 }
 
-.schedevent td:nth-child(2) {
+.schedevent td:nth-child(2),
+.rustevent  td:nth-child(2) {
   text-align: center;
 }
 </style>
@@ -53,6 +60,12 @@ permalink: /schedule/
         <td> 1</td><td>1/20</td>
         <td></td>
         <td></td>
+      </tr>
+      <tr class="rustevent">
+        <td colspan=2>1/21</td> <td colspan=2>Rust 1.6 Release</td>
+      </tr>
+      <tr class="schedevent">
+        <td colspan=2>2/01</td> <td colspan=2>Add Period Ends</td>
       </tr>
       <tr>
         <td> 2</td><td>1/27</td>
@@ -90,8 +103,11 @@ permalink: /schedule/
         <td></td>
         <td></td>
       </tr>
+      <tr class="rustevent">
+        <td colspan=2>3/03</td> <td colspan=2>Rust 1.7 Release</td>
+      </tr>
       <tr class="schedevent">
-        <td colspan=2></td> <td colspan=2>Spring Break</td>
+        <td colspan=2>3/05&ndash;3/13</td> <td colspan=2>Spring Break</td>
       </tr>
       <tr>
         <td> 8</td><td>3/16</td>
@@ -120,6 +136,9 @@ permalink: /schedule/
         <td>12</td><td>4/13</td>
         <td></td>
         <td></td>
+      </tr>
+      <tr class="rustevent">
+        <td colspan=2>4/14</td> <td colspan=2>Rust 1.8 Release</td>
       </tr>
       <tr>
         <td>13</td><td>4/20</td>
