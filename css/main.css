@@ -68,10 +68,10 @@ p {
 
 .part {
   display: inline-block;
-  -webkit-flex: 1 1 auto;
-     -moz-flex: 1 1 auto;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
+  -webkit-flex: 1 1 0;
+     -moz-flex: 1 1 0;
+      -ms-flex: 1 1 0;
+          flex: 1 1 0;
   padding: 4px;
 }
 
