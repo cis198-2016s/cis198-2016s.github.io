@@ -104,7 +104,17 @@ header, section {
   width: 100%;
 }
 
-header > div, section > div, section > p, header > h1, header > h2, header > h3 {
+header > div,
+header > h1,
+header > h2,
+header > h3,
+header > h4,
+section > div,
+section > p,
+section > h1,
+section > h2,
+section > h3,
+section > h4 {
   padding: 4px;
 }
 
