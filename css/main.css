@@ -10,8 +10,6 @@
 }
 
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 12pt;
   background-color: #fff;
   margin: 50px auto;
   border: 1px solid #ccc;
@@ -32,10 +30,6 @@ h2, h3 {
 }
 
 h4 {
-  font-weight: 400;
-}
-
-b, strong {
   font-weight: 400;
 }
 
@@ -73,30 +67,6 @@ p {
       -ms-flex: 1 1 0;
           flex: 1 1 0;
   padding: 4px;
-}
-
-.btn {
-  color: #fff;
-  background-color: #428bca;
-  border-color: #357ebd;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  height: 1.5em;
-  width: 100%;
-  padding: 1px;
-  text-align: center;
-  display: block;
-}
-
-.btn:hover, .btn:focus, .btn:active {
-  color: #fff;
-  background-color: #3276b1;
-  border-color: #285e8e;
-  text-decoration: none;
-}
-
-.btn img {
-  height: 1.25em;
 }
 
 header, section {
