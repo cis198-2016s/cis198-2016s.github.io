@@ -10,6 +10,8 @@
 }
 
 body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 12pt;
   background-color: #fff;
   margin: 50px auto;
   border: 1px solid #ccc;
