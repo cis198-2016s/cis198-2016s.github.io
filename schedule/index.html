@@ -42,11 +42,19 @@ permalink: /schedule/
 .rustevent  td:nth-child(2) {
   text-align: center;
 }
+
+.tentative {
+  font-style: italic;
+  color: gray;
+}
 </style>
 
 <section>
   <div>
-    <p>This schedule will be filled out as the semester progresses.</p>
+    <p>
+      This schedule will be filled out as the semester progresses.
+      (<span class="tentative">Tentative</span>)
+    </p>
     <table class="schedule">
       <thead>
         <tr>
@@ -95,50 +103,46 @@ permalink: /schedule/
           </ul>
       <tr>
         <td>4 <td>2/10
-        <td>
+        <td class="tentative">
           <ul>
             <li>
-                Standard Library
+                Closures
             <li>
-                Pointers
+                Standard Library &amp; Iterators
           </ul>
         <td>
       <tr>
         <td>5 <td>2/17
-        <td>
+        <td class="tentative">
           <ul>
             <li>
-                Standard Library
-            <li>
-                Pointers
+                Standard Library &amp; Pointer Types
           </ul>
         <td>
       <tr class="schedevent"> <td colspan=2>2/19 <td colspan=2>Drop Period Ends
       <tr>
         <td>6 <td>2/24
-        <td>
+        <td class="tentative">
           <ul>
-            <li>
-                Closures
             <li>
                 Error Handling
           </ul>
         <td>
       <tr>
         <td>7 <td>3/02
-        <td>
+        <td class="tentative">
           <ul>
             <li>
-                Networking
-            <li>
                 I/O
+            <li>
+                Networking
           </ul>
         <td>
       <tr class="rustevent"> <td colspan=2>3/03 <td colspan=2>Rust 1.7 Release
       <tr class="schedevent"> <td colspan=2>3/05&ndash;3/13 <td colspan=2>Spring Break
       <tr>
         <td>8 <td>3/16
-        <td>
+        <td class="tentative">
           <ul>
             <li>
                 Concurrency I
@@ -146,7 +150,7 @@ permalink: /schedule/
         <td>
       <tr>
         <td>9 <td>3/23
-        <td>
+        <td class="tentative">
           <ul>
             <li>
                 Concurrency II
@@ -155,30 +159,34 @@ permalink: /schedule/
       <tr class="schedevent"> <td colspan=2>3/25 <td colspan=2>Withdraw Period Ends
       <tr>
         <td>10 <td>3/30
-        <td>
+        <td class="tentative">
           <ul>
             <li>
-                Open-Source Rust
+                 Community &amp; Contributing
             <li>
-                Standard Library-less Rust
+                Rust Without <code>std</code>
           </ul>
         <td>
       <tr>
         <td>11 <td>4/06
-        <td>
+        <td class="tentative">
           <ul>
             <li>
                 Project Proposals
             <li>
                 Macros!
           </ul>
-        <td>
-      <tr>
-        <td>12 <td>4/13
-        <td>
+        <td class="tentative">
           <ul>
             <li>
-                Unsafe
+              Final Project - Due 4/27
+          </ul>
+      <tr>
+        <td>12 <td>4/13
+        <td class="tentative">
+          <ul>
+            <li>
+                Unsafe Rust
             <li>
                 FFI
           </ul>
@@ -186,21 +194,24 @@ permalink: /schedule/
       <tr class="rustevent"> <td colspan=2>4/14 <td colspan=2>Rust 1.8 Release
       <tr>
         <td>13 <td>4/20
-        <td>
+        <td class="tentative">
           <ul>
             <li>
                 Guest Lecture(?)
           </ul>
         <td>
-        <td>
       <tr>
         <td>14 <td>4/27
-        <td>
+        <td class="tentative">
           <ul>
             <li>
-                Project Presentations
+                Final Project Presentations
           </ul>
-        <td>
+        <td class="tentative">
+          <ul>
+            <li>
+                Final Project Due
+          </ul>
       <tr class="schedevent"> <td colspan=2>4/27 <td colspan=2>Last Day of Classes
     </table>
   </div>

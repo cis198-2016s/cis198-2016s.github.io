@@ -13,10 +13,6 @@
   unicode-range: U+1F300-1F5FF, U+1F600-1F64F, U+1F680-1F6FF, U+2600-26FF;
 }
 
-b, strong {
-  font-weight: 400;
-}
-
 a {
   color: #428bca;
   text-decoration: none;
