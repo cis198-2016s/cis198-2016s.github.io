@@ -21,9 +21,14 @@ a:hover, a:focus {
   border-radius: 4px;
   height: 1.5em;
   width: 100%;
+  font-weight: 400;
   padding: 1px;
   text-align: center;
   display: block;
+}
+
+.btngreen {
+  background: #19c17d;
 }
 
 .btn:hover, .btn:focus, .btn:active {
@@ -46,6 +51,12 @@ hr {
 table {
   border-collapse: collapse;
 }
+
+th {
+  background-color: #ddd;
+  font-weight: 400;
+}
+
 
 td, th, tr {
   padding: 3px 4px;

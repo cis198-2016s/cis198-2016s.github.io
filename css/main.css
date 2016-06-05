@@ -31,6 +31,12 @@ h1 {
   text-align: center;
 }
 
+@media only screen and (max-width: 400px) {
+  h1 {
+    font-size: 150%;
+  }
+}
+
 h2, h3 {
   text-align: center;
 }
@@ -64,23 +70,36 @@ p {
   display:    -moz-flex;
   display:     -ms-flex;
   display:         flex;
+  flex-wrap: wrap;
+  padding: 0px !important;
+}
+
+
+.subpartitioned {
+  display: -webkit-flex;
+  display:    -moz-flex;
+  display:     -ms-flex;
+  display:         flex;
+  -webkit-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 0px;
 }
 
 .part {
   display: inline-block;
-  -webkit-flex: 12 1 0;
-     -moz-flex: 12 1 0;
-      -ms-flex: 12 1 0;
-          flex: 12 1 0;
+  -webkit-flex: 12 1 auto;
+     -moz-flex: 12 1 auto;
+      -ms-flex: 12 1 auto;
+          flex: 12 1 auto;
   padding: 4px;
 }
 
 .partonethird {
   display: inline-block;
-  -webkit-flex: 4 1 0;
-     -moz-flex: 4 1 0;
-      -ms-flex: 4 1 0;
-          flex: 4 1 0;
+  -webkit-flex: 4 1 auto;
+     -moz-flex: 4 1 auto;
+      -ms-flex: 4 1 auto;
+          flex: 4 1 auto;
   padding: 4px;
 }
 
